@@ -9,6 +9,7 @@ A collection of academic articles, published methodology, datasets and benchmark
   - [Surveys](#surveys)
   - [T2I-Unlearning](#text-to-image-model-unlearning)
   - [I2I-Unlearning](#image-to-image-model-unlearning)
+  - [GAN-Unlearning](#gan-unlearning)
   - [Datasets and Benchmarks](#datasets-and-benchmarks)
   
 ----------
@@ -22,7 +23,6 @@ A collection of academic articles, published methodology, datasets and benchmark
 ## Text-to-Image Model Unlearning
 | **Paper** | **Year** | **Venue** | **Code** | **Type** |
 | --------------- | :----: | ---- | :----: | :----: |
-| [FAST: Feature Aware Similarity Thresholding for Weak Unlearning in Black-Box Generative Models](https://arxiv.org/abs/2312.14895) | 2024 | _arXiv_ | - | Class Unlearning, Feature Unlearning |
 | [Espresso: Robust Concept Filtering in Text-to-Image Models](https://arxiv.org/abs/2404.19227) | 2024 | _arXiv_ | - | Concept Unlearning |
 | [MACE: Mass Concept Erasure in Diffusion Models](https://arxiv.org/abs/2403.06135) | 2024 | _CVPR'24_ | [Code](https://github.com/Shilin-LU/MACE) | Concept Unlearning |
 | [Probing Unlearned Diffusion Models: A Transferable Adversarial Attack Perspective](https://arxiv.org/abs/2404.19382) | 2024 |   _arXiv_   | [Code](https://github.com/hxxdtd/PUND) | Attack |
@@ -48,10 +48,7 @@ A collection of academic articles, published methodology, datasets and benchmark
 | [Degeneration-Tuning: Using Scrambled Grid shield Unwanted Concepts from Stable Diffusion](https://arxiv.org/abs/2308.02552) | 2023 | _ACM MM'23_ | - | Concept Unlearning |
 | [Receler: Reliable Concept Erasing of Text-to-Image Diffusion Models via Lightweight Erasers](https://arxiv.org/abs/2311.17717) | 2023 | _arXiv_ | - | Concept Unlearning |
 | [Implicit Concept Removal of Diffusion Models](https://arxiv.org/abs/2310.05873) | 2023 | _arXiv_ | - | Concept Unlearning |
-| [Adapt then Unlearn: Exploiting Parameter Space Semantics for Unlearning in Generative Adversarial Networks](https://arxiv.org/abs/2309.14054) | 2023 | _arXiv_ | - | Feature Unlearning |
-| [Generative Adversarial Networks Unlearning](https://arxiv.org/abs/2308.09881) | 2023 | _arXiv_ | - | Sample Unlearning, Class Unlearning |
 | [Forget-Me-Not: Learning to Forget in Text-to-Image Diffusion Models](https://arxiv.org/abs/2303.17591) | 2023 | _arXiv_ | [Code](https://github.com/SHI-Labs/Forget-Me-Not) | Concept Unlearning |
-| [Feature Unlearning for Pre-trained GANs and VAEs](https://arxiv.org/abs/2303.05699) | 2023 | _arXiv_ | - | Feature Unlearning |
 ----------
 
 ## Image-to-Image Model Unlearning
@@ -59,6 +56,15 @@ A collection of academic articles, published methodology, datasets and benchmark
 | --------------- | :----: | ---- | :----: | :----: |
 | [Generative Unlearning for Any Identity](https://arxiv.org/abs/2405.09879) | 2024 | _CVPR'24_ | [[Code]](https://github.com/KHU-AGI/GUIDE) | Identity Unlearning |
 | [Machine Unlearning for Image-to-Image Generative Models](https://arxiv.org/abs/2402.00351) | 2024 | _ICLR'24_ | [[Code]](https://github.com/jpmorganchase/l2l-generator-unlearning) | Sample Unlearning, Class Unlearning |
+----------
+
+## GAN Unlearning
+| **Paper** | **Year** | **Venue** | **Code** | **Type** |
+| --------------- | :----: | ---- | :----: | :----: |
+| [FAST: Feature Aware Similarity Thresholding for Weak Unlearning in Black-Box Generative Models](https://arxiv.org/abs/2312.14895) | 2024 | _arXiv_ | - | Class Unlearning, Feature Unlearning |
+| [Adapt then Unlearn: Exploiting Parameter Space Semantics for Unlearning in Generative Adversarial Networks](https://arxiv.org/abs/2309.14054) | 2023 | _arXiv_ | - | Feature Unlearning |
+| [Generative Adversarial Networks Unlearning](https://arxiv.org/abs/2308.09881) | 2023 | _arXiv_ | - | Sample Unlearning, Class Unlearning |
+| [Feature Unlearning for Pre-trained GANs and VAEs](https://arxiv.org/abs/2303.05699) | 2023 | _arXiv_ | - | Feature Unlearning |
 ----------
 
 ## Datasets and Benchmarks
